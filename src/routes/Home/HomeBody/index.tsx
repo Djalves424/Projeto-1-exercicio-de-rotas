@@ -1,8 +1,13 @@
-export default function HomeBody() {
+import Card from "../../../components/Header/Card";
 
-     return (
-        <main>
-            <h2>Página inicial</h2>
-        </main>
-     )
+export default function HomeBody() {
+  return (
+    <main>
+      <section>
+        <div className="container mt30 mb30">
+          <Card title="Página inicial" />
+        </div>
+      </section>
+    </main>
+  );
 }
