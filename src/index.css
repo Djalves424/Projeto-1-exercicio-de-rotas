@@ -20,6 +20,16 @@ body {
     background-color: var(--color-bg-tertiary);
 }
 
+a,
+:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+.dflex {
+    display: flex;
+}
+
 .container {
     width: 100%;
     max-width: 960px;
