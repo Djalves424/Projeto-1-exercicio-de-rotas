@@ -1,5 +1,6 @@
 import Card from "../../../components/Header/Card";
 import Button from "../../../components/Header/Button";
+import { Link } from "react-router-dom";
 
 export default function Promotion() {
   return (
@@ -10,7 +11,9 @@ export default function Promotion() {
             <Card title="Página de promoção" />
           </div>
           <div className="dflex">
-            <Button text="Quero participar" />
+            <Link to="/sub">
+              <Button text="Quero participar" />
+            </Link>
           </div>
         </div>
       </section>

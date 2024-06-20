@@ -1,5 +1,6 @@
 import Card from "../../../components/Header/Card";
 import Button from "../../../components/Header/Button";
+import { Link } from "react-router-dom";
 
 export default function Subscription() {
   return (
@@ -10,7 +11,9 @@ export default function Subscription() {
             <Card title="Página de inscrição" />
           </div>
           <div className="dflex">
-            <Button text="Ver promoção" />
+            <Link to="/Promotion">
+              <Button text="Ver promoção" />
+            </Link>
           </div>
         </div>
       </section>
