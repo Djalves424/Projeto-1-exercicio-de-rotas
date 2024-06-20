@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --color-bg-primary: #FFFFFF;
+    --color-bg-secondary: #FF2323;
+    --color-bg-tertiary: #DADADA;
+
+    --color-font-primary: #6F6F6F;
+    --color-font-secondary: #FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
